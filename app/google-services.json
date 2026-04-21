@@ -7,12 +7,25 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:789190818561:android:140a8a85fc3f15b0533900",
+        "mobilesdk_app_id": "1:789190818561:android:9a0628418326ab27533900",
         "android_client_info": {
           "package_name": "com.project.course.myfinance"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "789190818561-ppei6jhjk9j9loghjrtmt45rr8drdqoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.course.myfinance",
+            "certificate_hash": "09e7b3f4cd81631207bc774241c6d9a4b72f0b57"
+          }
+        },
+        {
+          "client_id": "789190818561-pfb6m4vr207b90s5r1ku8pm07bl070i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDBkcCRc01sFlMK9gFcia7ZkabF1fftcOs"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789190818561-c16slua68ehsfo1c72ifk3ua9fqbut5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
